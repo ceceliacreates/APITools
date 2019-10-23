@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Test issue one",
+        "labels": [
+            "setup"
+        ]
+    },
+    {
+        "title": "Test issue two",
+        "labels": [
+            "database"
+        ]
+    },
+    {
+        "title": "Test issue three",
+        "labels": [
+            "UI"
+        ]
+    }
+]

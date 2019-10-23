@@ -1,0 +1,140 @@
+[
+    {
+        "title": "Initiate project (create react app)",
+        "labels": [
+            "setup"
+        ]
+    },
+    {
+        "title": "Install packages (express, mysql2, sequelize-cli, sequelize)",
+        "labels": [
+            "setup"
+        ]
+    },
+    {
+        "title": "Define views (using Invision)",
+        "labels": [
+            "UI"
+        ]
+    },
+    {
+        "title": "User Prototype Testing",
+        "labels": [
+            "UI"
+        ]
+    },
+    {
+        "title": "Define any third-party integrations",
+        "labels": [
+            "setup"
+        ]
+    },
+    {
+        "title": "Create development database",
+        "labels": [
+            "database"
+        ]
+    },
+    {
+        "title": "Connect dev database with Sequelize",
+        "labels": [
+            "database"
+        ]
+    },
+    {
+        "title": "Write event handler functions for React",
+        "labels": [
+            "logic"
+        ]
+    },
+    {
+        "title": "Write event handler functions for React",
+        "labels": [
+            "logic"
+        ]
+    },
+    {
+        "title": "set up environment variables for development",
+        "labels": [
+            "database"
+        ]
+    },
+    {
+        "title": "set up envrionment variables for deployment",
+        "labels": [
+            "database"
+        ]
+    },
+    {
+        "title": "Deploy app",
+        "labels": [
+            "devops"
+        ]
+    },
+    {
+        "title": "Create components",
+        "labels": [
+            "UI"
+        ]
+    },
+    {
+        "title": "Define views/screens",
+        "labels": [
+            "UI"
+        ]
+    },
+    {
+        "title": "Define API endpoints",
+        "labels": [
+            "server"
+        ]
+    },
+    {
+        "title": "Create models",
+        "labels": [
+            "database"
+        ]
+    },
+    {
+        "title": "Write Sequelize queries for endpoints",
+        "labels": [
+            "database"
+        ]
+    },
+    {
+        "title": "Create server with express",
+        "labels": [
+            "server"
+        ]
+    },
+    {
+        "title": "Include JSON and URL encoded requests",
+        "labels": [
+            "server"
+        ]
+    },
+    {
+        "title": "Include public static files for server",
+        "labels": [
+            "server"
+        ]
+    },
+    {
+        "title": "Define UI routes in React",
+        "labels": [
+            "UI"
+        ]
+    },
+    {
+        "title": "Build views with React components",
+        "labels": [
+            "UI"
+        ]
+    },
+    {
+        "title": "Define stateful values and in what component they will be managed",
+        "labels": [
+            "logic"
+        ]
+    }
+]
