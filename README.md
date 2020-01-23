@@ -15,4 +15,6 @@ Video coming soon!
 
 ### GitHub Emoji Tool
 
+File: CopyEmojis.HTML
+
 Video coming soon!
