@@ -5,11 +5,15 @@ Hello! This is a test repo for various tools related to APIs (specifically so fa
 
 File: CreateIssueFromJSON.js
 
+npm run issues
+
 [Video Demo](https://youtu.be/tR5FpO3QglA)
 
 ### Pull Commits Since Release
 
 File PullCommitsSinceRelease.js
+
+npm run commits
 
 Video coming soon!
 
