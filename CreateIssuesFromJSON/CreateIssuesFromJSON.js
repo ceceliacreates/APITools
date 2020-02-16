@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 require('dotenv').config();
-const file = require('./TestIssues.json.js');
+const file = require('./TestIssues.json');
 const user = 'ceceliacreates';
 const repo = 'APITools';
 

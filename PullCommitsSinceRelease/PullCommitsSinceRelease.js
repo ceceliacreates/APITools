@@ -15,7 +15,7 @@ fetch(`https://api.github.com/repos/${user}/${repo}/commits?sha=${process.env.SH
     .then(json => {
         json.forEach(commit => commitMessages.push({ 'message': commit.commit.message, 'date': commit.commit.author.date }));
         
-        fs.writeFile('./PullCommitsSinceRelease/commits.json', JSON.stringify(commitMessages), (err) => {
+        fs.writeFile('./commits.json', JSON.stringify(commitMessages), (err) => {
             if (err) throw err;
             console.log('The file has been saved!')});
     });
