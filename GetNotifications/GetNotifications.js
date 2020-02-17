@@ -8,48 +8,31 @@ const repo = "react-portfolio";
 getNotifications = function (owner, repo) {
 
     //Gets all unread notifications for given repo
-    fetch(`https://api.github.com/repos/${owner}/${repo}/notifications`, {
-        method: 'get',
-        headers: { 'Content-Type': 'application/json', 'Authorization': `token ${process.env.TOKEN}` }
-    })
+    //Endpoint: repos/:owner/:repo/notifications
 
-        //Converts response to JSON
-        .then(res => res.json())
-        .then(json => {
 
-            //Creates array to hold security notifications
-            const securityNotifications = [];
-            json.forEach(notification => {
+    //Converts response to JSON
 
-                //Checks if the notification is a security alert and creates a message
-                if (notification.reason === "security_alert") {
-                    const notificationMessage = {
-                        "id": notification.id,
-                        "subject": notification.subject.title,
-                        "type": notification.subject.type,
-                        "reason": notification.reason,
-                        "URL": notification.url
-                    }
 
-                    //Adds notificationMessage to the securityNotifications array
-                    securityNotifications.push(notificationMessage)
+    //Creates array to hold security notifications
 
-                    //Marks thread as read on GitHub by passing thread ID
-                    console.log("Marking as Read: " + notification.id)
-                    
-                    fetch(`https://api.github.com/notifications/threads/${notification.id}`, {
-                        method: 'patch',
-                        headers: { 'Content-Type': 'application/json', 'Authorization': `token ${process.env.TOKEN}` }
-                    })
-                }
-            })
 
-            //Writes securityNotifications array to file
-            fs.writeFile('./securityAlerts.json', JSON.stringify(securityNotifications), (err) => {
-                if (err) throw err;
-                console.log('The file has been saved!')
-            });
-        })
+    //Loops through each notification in JSON
+
+
+    //Checks if the notification is a security alert and creates a message
+
+
+    //Adds notificationMessage to the securityNotifications array
+
+
+    //Marks thread as read on GitHub by passing thread ID
+    //Endpoint: /notifications/threads/:id
+
+
+    //Writes securityNotifications array to file
+
+
 }
 
-getNotifications(owner, repo);
+// Calls the function
