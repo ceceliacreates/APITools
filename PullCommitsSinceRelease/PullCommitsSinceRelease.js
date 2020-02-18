@@ -2,8 +2,8 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 require('dotenv').config();
 
-const user = 'ceceliacreates';
-const repo = 'project-green';
+const user = 'ceceliaplayground';
+const repo = 'API-demo';
 const startDate = '2019-05-06T00:00:00Z';
 const commitMessages = [];
 

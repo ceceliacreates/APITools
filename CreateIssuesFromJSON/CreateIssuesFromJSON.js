@@ -1,8 +1,8 @@
 const fetch = require('node-fetch');
 require('dotenv').config();
 const file = require('./TestIssues.json');
-const user = 'ceceliacreates';
-const repo = 'APITools';
+const user = 'ceceliaplayground';
+const repo = 'API-demo';
 
 createIssuesFromJSON = function(file) {
     file.forEach(issue => {
