@@ -2,8 +2,8 @@ const fetch = require("node-fetch");
 const fs = require('fs');
 require('dotenv').config();
 
-const owner = "ceceliaplayground";
-const repo = "API-demo";
+const owner = "ceceliacreates";
+const repo = "react-portfolio";
 
 getNotifications = function (owner, repo) {
 
@@ -20,7 +20,8 @@ getNotifications = function (owner, repo) {
     //Loops through each notification in JSON
 
 
-    //Checks if the notification is a security alert and creates a message
+    //Checks if the notification is a security alert and creates a notificationMessage
+    //with id, subject, type, reason, and URL
 
 
     //Adds notificationMessage to the securityNotifications array
