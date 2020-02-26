@@ -2,8 +2,8 @@ const fetch = require("node-fetch");
 const fs = require('fs');
 require('dotenv').config();
 
-const owner = "ceceliacreates";
-const repo = "react-portfolio";
+const owner = "";
+const repo = "";
 
 getNotifications = function (owner, repo) {
 

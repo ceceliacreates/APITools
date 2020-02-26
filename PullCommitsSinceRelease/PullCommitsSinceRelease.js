@@ -6,8 +6,9 @@ const user = 'ceceliaplayground';
 const repo = 'API-demo';
 const startDate = '2019-05-06T00:00:00Z';
 const commitMessages = [];
+const SHA = '7e0df3a01ac3d3797480c63682887412dc5ac22f'
 
-fetch(`https://api.github.com/repos/${user}/${repo}/commits?sha=${process.env.SHA}&per_page=100&since=${startDate}`, {
+fetch(`https://api.github.com/repos/${user}/${repo}/commits?sha=${SHA}&per_page=100&since=${startDate}`, {
     method: 'get',
     headers: { 'Content-Type': 'application/json', 'Authorization': `${process.env.TOKEN}` }
 })
