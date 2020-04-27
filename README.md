@@ -1,6 +1,15 @@
 # APITools
 Hello! This is a test repo for various tools related to APIs (specifically so far the GitHub API).
 
+[Webinar Recording for Women Who Code Front End](https://zoom.us/rec/share/x9RIf6PO6T9IYK_qtwLVZIUqOYfkT6a80yId-PNfmU2-WeEARuypanXZmE2NKWop)
+
+[Presentation Slides](https://docs.google.com/presentation/d/1tX609xC3losnKLCF6Atq-fpXtqpYaGMHe_rmEcW34nI/edit?usp=sharing)
+
+Also presented at:
+
+- [ngALT @ DevNexus](https://twitter.com/angelmbanks/status/1227987552772202497)
+- [Women Techmakers Atlanta Meetup](https://twitter.com/WTM_Atl/status/1232381653009477632)
+
 ## Talk Code-Along Instructions
 
 If you are here for a code-along portion at a talk, welcome! I'll go over these instructions in the talk, but in case you miss something or are watching from home, here are the steps for coding along.
