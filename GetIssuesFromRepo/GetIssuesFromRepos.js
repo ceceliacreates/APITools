@@ -1,5 +1,6 @@
 const fetch = require("node-fetch");
 const fs = require("fs");
+require("dotenv").config();
 
 const username = "ceceliacreates";
 
